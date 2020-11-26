@@ -1,0 +1,12 @@
+class Hewan4 {
+	nama: string;
+	kaki: number;
+
+	constructor(nama: string, kaki: number) {
+		this.nama = nama;
+		this.kaki = kaki;
+	}
+}
+
+const burung = new Hewan4("Merpati", 4);
+console.log(burung);
